@@ -1,4 +1,5 @@
 // Stores the active TCP connection object.
+const { pressKey } = require("./constants");
 let connection;
 
 // setup interface to handle user input from stdin
@@ -14,26 +15,35 @@ const setupInput = (conn) => {
     //check for (ctrl + c) command input
     if (key === "\u0003") {
       process.exit();
-    } else if (key === "w") {
-      // console.log("Move: up");
-      connection.write("Move: up");
-    } else if (key === "a") {
-      // console.log("Move: left");
-      connection.write("Move: left");
-    } else if (key === "s") {
-      // console.log("Move: down");
-      connection.write("Move: down");
-    } else if (key === "d") {
-      // console.log("Move: right");
-      connection.write("Move: right");
-    } else if (key === "m") {
-      //console.log("Say: It's me!");
-      connection.write("Say: It's me!");
     }
+    //update movement direction
+    console.log(key);
+    connection.write(pressKey[key]);
+
+    //update movement direction
+
+    // if (key === "w") {
+    //   // console.log("Move: up");
+    //   connection.write("Move: up");
+    // } else if (key === "a") {
+    //   // console.log("Move: left");
+    //   connection.write("Move: left");
+    // } else if (key === "s") {
+    //   // console.log("Move: down");
+    //   connection.write("Move: down");
+    // } else if (key === "d") {
+    //   // console.log("Move: right");
+    //   connection.write("Move: right");
+    // } else if (key === "m") {
+    //   //console.log("Say: It's me!");
+    //   connection.write("Say: It's me!");
+    // }
   };
   stdin.on("data", handleUserInput);
 
   return stdin;
 };
 
-module.exports = { setupInput };
+module.exports = {
+  setupInput,
+};
