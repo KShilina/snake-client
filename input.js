@@ -16,11 +16,9 @@ const setupInput = (conn) => {
     if (key === "\u0003") {
       process.exit();
     }
-    //update movement direction
+    //refactor if/else statements with an object ({ x: "y" })”
     console.log(key);
     connection.write(pressKey[key]);
-
-    //update movement direction
 
     // if (key === "w") {
     //   // console.log("Move: up");
