@@ -15,6 +15,19 @@ const connect = function () {
     console.log("Successfully connected to the game server!");
     // send intial name prompt on connection
     conn.write("Name: ES");
+
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // }, 2000);
+    // setInterval(() => {
+    //   conn.write("Move: left");
+    // }, 3000);
+    // setInterval(() => {
+    //   conn.write("Move: down");
+    // }, 4000);
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // }, 5000);
   });
 
   // interpret incoming data as text
