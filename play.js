@@ -3,9 +3,9 @@ const { connect } = require("./client");
 const { setupInput } = require("./input");
 
 console.log("Connecting ...");
-connect();
+const conn = connect(); //store conn obj returned by connect
 
-setupInput();
+setupInput(conn); //passing conn obj to setuoInput
 
 //About Events
 // When you connect to a server, or when it closes its connection with you, or when it sends you data, these are events. You can control how your client responds to these events if you know how to listen for them. If you don't listen for the event, you can't react to it.
