@@ -26,6 +26,9 @@ const setupInput = (conn) => {
     } else if (key === "d") {
       // console.log("Move: right");
       connection.write("Move: right");
+    } else if (key === "m") {
+      //console.log("Say: It's me!");
+      connection.write("Say: It's me!");
     }
   };
   stdin.on("data", handleUserInput);
