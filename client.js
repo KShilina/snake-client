@@ -4,7 +4,7 @@ const connect = function () {
   //We used Node's net library (specifically, the createConnection function) to create an object named conn in the code below.
   const conn = net.createConnection({
     host: "localhost", // IP address here,
-    port: 50541 // PORT number here,
+    port: 50541, // PORT number here,
   });
   //event handler on data
   conn.on("data", (data) => {
@@ -13,6 +13,8 @@ const connect = function () {
   //event handler to a server and execute callback function
   conn.on("connect", () => {
     console.log("Successfully connected to the game server!");
+    // send intial name prompt on connection
+    conn.write("Name: ES");
   });
 
   // interpret incoming data as text
