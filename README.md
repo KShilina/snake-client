@@ -6,6 +6,24 @@ This is simply a multiplayer take on the genre.
 
 Before you can run this client, you will need to be running the server side which you can download and install from [here.](https://github.com/taniarascia/snek) 
 
+## Project Outcomes
+- Develop familiarity with asynchronous programming
+- Create TCP clients using Node's built-in net module
+- Separate concerns by creating modules for different functionalities
+- Build a client application in the form of a game that is run on your terminal
+
+##Learning Outcomes
+- Explain the difference between Client and Server code/responsibilities.
+- Use TCP to create a simple client/server implementation in Node.
+
+## Work Outcomes
+- Troubleshoot and debug problems associated with web development.
+- Demonstrate problem solving skills by developing basic algorithms to solve coding challenges or katas.
+- Evaluate or analyze coding solutions / ideas, and their limitations and/or benefits.
+- Discuss components that make up a web application at the "application layer".
+- Contribute to full-stack web applications using modern software development patterns, tools and workflows:
+- Integrate into common development team workflows (git, github workflow, automated testing, and code reviews).
+
 ## Final Product
 
 
