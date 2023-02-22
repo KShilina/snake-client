@@ -17,7 +17,7 @@ const setupInput = (conn) => {
       process.exit();
     }
     //refactor if/else statements with an object ({ x: "y" })”
-    console.log(key);
+    //console.log(key);
     connection.write(pressKey[key]);
 
     // if (key === "w") {
