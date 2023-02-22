@@ -24,8 +24,8 @@ Before you can run this client, you will need to be running the server side whic
 ## Instructions how to play
 - Use "wasd" keys on your keyboard to move the snake ti different directions:
 
-**w**: *Move: up* :arrow_up:
-**a**: *Move: left* :arrow_left:
-**s**: *Move: down* :arrow_down:
-**d**: *Move: right* :arrow_right:
-**m**: *Say: It's me!* (to trigger a special message) 
+- **w**: *Move: up* :arrow_up:
+- **a**: *Move: left* :arrow_left:
+- **s**: *Move: down* :arrow_down:
+- **d**: *Move: right* :arrow_right:
+- **m**: *Say: It's me!* (to trigger a special message) 
