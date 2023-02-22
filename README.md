@@ -25,9 +25,9 @@ https://user-images.githubusercontent.com/91483856/220511597-716c3dd8-0798-4270-
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
 
-#### 
+
 ## Instructions how to play
-###Use "wasd" keys on your keyboard to move the snake to different directions:
+**Use "wasd" keys on your keyboard to move the snake to different directions:**
 
 - **w**: *Move: up* :arrow_up:
 - **a**: *Move: left* :arrow_left:
