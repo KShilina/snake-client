@@ -12,7 +12,7 @@ Before you can run this client, you will need to be running the server side whic
 - Separate concerns by creating modules for different functionalities
 - Build a client application in the form of a game that is run on your terminal
 
-##Learning Outcomes
+## Learning Outcomes
 - Explain the difference between Client and Server code/responsibilities.
 - Use TCP to create a simple client/server implementation in Node.
 
